@@ -1,0 +1,8 @@
+# Keep LF in the repository and in every checkout: the bundled scripts carry
+# shebangs and are meant to run on POSIX too, and CRLF would break that.
+* text=auto eol=lf
+
+# Images (none today) would be corrupted by any text filter.
+*.png binary
+*.jpg binary
+*.gif binary

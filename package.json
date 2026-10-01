@@ -1,0 +1,37 @@
+{
+  "name": "dsh-verify-cheap",
+  "description": "Ships the verify-cheap skill: pick the cheapest check that still yields a definite answer (static check or probe before integration), poll conditions instead of sleeping, and report measured durations. Bundles two zero-dependency Node tools — wait-until.mjs (condition polling with a timeout) and measure-runtime.mjs (segmented timing plus an external-vs-internal duration gap).",
+  "version": "0.1.0",
+  "type": "module",
+  "license": "MIT",
+  "files": [
+    "cordis.patch.yml",
+    "skills",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "*",
+    "@deepseek-ai/dsh-skill-filesystem": "*"
+  },
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "plugin",
+    "skill",
+    "verification",
+    "testing",
+    "polling",
+    "timing"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ushio155/dsh-verify-cheap.git"
+  },
+  "homepage": "https://github.com/Ushio155/dsh-verify-cheap#readme"
+}
