@@ -1,7 +1,7 @@
 {
   "name": "dsh-verify-cheap",
   "description": "Ships the verify-cheap skill: pick the cheapest check that still yields a definite answer (static check or probe before integration), poll conditions instead of sleeping, and report measured durations. Bundles two zero-dependency Node tools — wait-until.mjs (condition polling with a timeout) and measure-runtime.mjs (segmented timing plus an external-vs-internal duration gap).",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "license": "MIT",
   "files": [
