@@ -1,0 +1,146 @@
+[
+  {
+    "arm": "new",
+    "rep": 0,
+    "ok": true,
+    "first": "skill",
+    "skills": [
+      "verify-cheap"
+    ]
+  },
+  {
+    "arm": "old",
+    "rep": 0,
+    "ok": true,
+    "first": "read",
+    "skills": [
+      "verify-cheap"
+    ]
+  },
+  {
+    "arm": "new",
+    "rep": 1,
+    "ok": true,
+    "first": "glob",
+    "skills": [
+      "verify-cheap"
+    ]
+  },
+  {
+    "arm": "old",
+    "rep": 1,
+    "ok": true,
+    "first": "skill",
+    "skills": [
+      "verify-cheap"
+    ]
+  },
+  {
+    "arm": "new",
+    "rep": 2,
+    "ok": true,
+    "first": "skill",
+    "skills": [
+      "verify-cheap"
+    ]
+  },
+  {
+    "arm": "old",
+    "rep": 2,
+    "ok": true,
+    "first": "glob",
+    "skills": [
+      "verify-cheap"
+    ]
+  },
+  {
+    "arm": "new",
+    "rep": 3,
+    "ok": true,
+    "first": "skill",
+    "skills": [
+      "verify-cheap"
+    ]
+  },
+  {
+    "arm": "old",
+    "rep": 3,
+    "ok": true,
+    "first": "glob",
+    "skills": [
+      "verify-cheap"
+    ]
+  },
+  {
+    "arm": "new",
+    "rep": 4,
+    "ok": true,
+    "first": "skill",
+    "skills": [
+      "verify-cheap"
+    ]
+  },
+  {
+    "arm": "old",
+    "rep": 4,
+    "ok": true,
+    "first": "glob",
+    "skills": [
+      "verify-cheap"
+    ]
+  },
+  {
+    "arm": "new",
+    "rep": 5,
+    "ok": true,
+    "first": "glob",
+    "skills": [
+      "verify-cheap"
+    ]
+  },
+  {
+    "arm": "old",
+    "rep": 5,
+    "ok": true,
+    "first": "read",
+    "skills": [
+      "verify-cheap"
+    ]
+  },
+  {
+    "arm": "new",
+    "rep": 6,
+    "ok": true,
+    "first": "skill",
+    "skills": [
+      "verify-cheap"
+    ]
+  },
+  {
+    "arm": "old",
+    "rep": 6,
+    "ok": true,
+    "first": "glob",
+    "skills": [
+      "verify-cheap"
+    ]
+  },
+  {
+    "arm": "new",
+    "rep": 7,
+    "ok": true,
+    "first": "skill",
+    "skills": [
+      "verify-cheap"
+    ]
+  },
+  {
+    "arm": "old",
+    "rep": 7,
+    "ok": true,
+    "first": "glob",
+    "skills": [
+      "verify-cheap"
+    ]
+  }
+]

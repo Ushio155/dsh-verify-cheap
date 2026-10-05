@@ -1,0 +1,446 @@
+[
+  {
+    "arm": "new",
+    "rep": 0,
+    "ok": true,
+    "calls": [
+      {
+        "tool": "skill",
+        "input": "{\"name\":\"verify-cheap\"}"
+      },
+      {
+        "tool": "glob",
+        "input": "{\"pattern\":\"**/*\"}"
+      },
+      {
+        "tool": "read",
+        "input": "{\"file_path\":\"C:\\\\Users\\\\19723\\\\AppData\\\\Local\\\\Temp\\\\verify-trigger\\\\SUMMARY.md\"}"
+      },
+      {
+        "tool": "grep",
+        "input": "{\"pattern\":\"Start-Sleep|sleep|setTimeout|sleep\\\\(\"}"
+      },
+      {
+        "tool": "read",
+        "input": "{\"file_path\":\"C:\\\\Users\\\\19723\\\\AppData\\\\Local\\\\Temp\\\\verify-trigger\\\\_demo-hang.mjs\"}"
+      },
+      {
+        "tool": "read",
+        "input": "{\"file_path\":\"D:\\\\code_practice\\\\AI_coding\\\\DSH_cache\\\\skills\\\\verify-cheap\\\\references\\\\anti-patterns.md\"}"
+      },
+      {
+        "tool": "glob",
+        "input": "{\"pattern\":\"**/*.ps1\"}"
+      },
+      {
+        "tool": "grep",
+        "input": "{\"pattern\":\"Start-Sleep\",\"path\":\"D:\\\\code_practice\\\\AI_coding\\\\DSH_cache\"}"
+      },
+      {
+        "tool": "pwsh",
+        "input": "{\"command\":\"Get-ChildItem -Path \\\"$env:TEMP\\\" -Recurse -Include *.ps1 -ErrorAction SilentlyContinue | Select-Object -First 20 FullName\",\"description\":\"Find PowerShell scripts under TEMP\"}"
+      },
+      {
+        "tool": "grep",
+        "input": "{\"path\":\"D:\\\\code_practice\\\\AI_coding\\\\DSH_cache\\\\skills\",\"pattern\":\"Start-Sleep\"}"
+      },
+      {
+        "tool": "grep",
+        "input": "{\"path\":\"D:\\\\code_practice\\\\AI_coding\\\\DSH_cache\\\\tools\",\"pattern\":\"Start-Sleep\"}"
+      },
+      {
+        "tool": "grep",
+        "input": "{\"path\":\"C:\\\\Users\\\\19723\\\\AppData\\\\Local\\\\Temp\\\\verify-trigger\",\"pattern\":\"Start-Sleep\"}"
+      },
+      {
+        "tool": "read",
+        "input": "{\"file_path\":\"D:\\\\code_practice\\\\AI_coding\\\\DSH_cache\\\\skills\\\\verify-cheap\\\\references\\\\probe-cookbook.md\",\"offset\":35,\"limit\":40}"
+      }
+    ],
+    "skills": [
+      "verify-cheap"
+    ],
+    "nEvents": 52,
+    "attempts": 1,
+    "notes": []
+  },
+  {
+    "arm": "new",
+    "rep": 1,
+    "ok": true,
+    "calls": [
+      {
+        "tool": "skill",
+        "input": "{\"name\":\"verify-cheap\"}"
+      },
+      {
+        "tool": "glob",
+        "input": "{\"pattern\":\"**/*\"}"
+      },
+      {
+        "tool": "read",
+        "input": "{\"file_path\":\"SUMMARY.md\"}"
+      },
+      {
+        "tool": "grep",
+        "input": "{\"pattern\":\"Start-Sleep|sleep|setTimeout|delay\"}"
+      },
+      {
+        "tool": "read",
+        "input": "{\"file_path\":\"_demo-hang.mjs\"}"
+      },
+      {
+        "tool": "read",
+        "input": "{\"file_path\":\".verify-cost.md\"}"
+      },
+      {
+        "tool": "grep",
+        "input": "{\"pattern\":\"Start-Sleep\",\"path\":\"C:\\\\Users\\\\19723\\\\AppData\\\\Local\\\\Temp\\\\verify-trigger\"}"
+      },
+      {
+        "tool": "read",
+        "input": "{\"file_path\":\"D:\\\\code_practice\\\\AI_coding\\\\DSH_cache\\\\skills\\\\verify-cheap\\\\scripts\\\\wait-until.mjs\"}"
+      },
+      {
+        "tool": "grep",
+        "input": "{\"path\":\"D:\\\\code_practice\\\\AI_coding\\\\DSH_cache\\\\skills\",\"pattern\":\"Start-Sleep|sleep |setTimeout\"}"
+      },
+      {
+        "tool": "grep",
+        "input": "{\"path\":\"C:\\\\Users\\\\19723\\\\AppData\\\\Local\\\\Temp\\\\verify-trigger\",\"pattern\":\"setTimeout|process\\\\.exit|unref\"}"
+      },
+      {
+        "tool": "grep",
+        "input": "{\"path\":\"D:\\\\code_practice\\\\AI_coding\\\\chats\",\"pattern\":\"Start-Sleep|-Seconds \\\\d\",\"include\":\"*.mjs\"}"
+      },
+      {
+        "tool": "read",
+        "input": "{\"file_path\":\"D:\\\\code_practice\\\\AI_coding\\\\DSH_cache\\\\skills\\\\verify-cheap\\\\references\\\\anti-patterns.md\",\"limit\":40}"
+      }
+    ],
+    "skills": [
+      "verify-cheap"
+    ],
+    "nEvents": 50,
+    "attempts": 1,
+    "notes": []
+  },
+  {
+    "arm": "new",
+    "rep": 2,
+    "ok": true,
+    "calls": [
+      {
+        "tool": "skill",
+        "input": "{\"name\":\"verify-cheap\"}"
+      },
+      {
+        "tool": "read",
+        "input": "{\"file_path\":\"C:\\\\Users\\\\19723\\\\AppData\\\\Local\\\\Temp\\\\verify-trigger\\\\SUMMARY.md\"}"
+      },
+      {
+        "tool": "grep",
+        "input": "{\"pattern\":\"Start-Sleep|sleep|setTimeout|wait\",\"path\":\"C:\\\\Users\\\\19723\\\\AppData\\\\Local\\\\Temp\\\\verify-trigger\"}"
+      },
+      {
+        "tool": "glob",
+        "input": "{\"pattern\":\"*\",\"path\":\"C:\\\\Users\\\\19723\\\\AppData\\\\Local\\\\Temp\\\\verify-trigger\"}"
+      },
+      {
+        "tool": "read",
+        "input": "{\"file_path\":\"C:\\\\Users\\\\19723\\\\AppData\\\\Local\\\\Temp\\\\verify-trigger\\\\.verify-cost.md\"}"
+      },
+      {
+        "tool": "read",
+        "input": "{\"file_path\":\"C:\\\\Users\\\\19723\\\\AppData\\\\Local\\\\Temp\\\\verify-trigger\\\\_demo-hang.mjs\"}"
+      },
+      {
+        "tool": "grep",
+        "input": "{\"path\":\"C:\\\\Users\\\\19723\\\\AppData\\\\Local\\\\Temp\\\\verify-trigger\",\"pattern\":\"(?i)start-sleep|sleep|thread\\\\.sleep|time\\\\.sleep|settimeout|wait-until\"}"
+      },
+      {
+        "tool": "glob",
+        "input": "{\"path\":\"C:\\\\Users\\\\19723\\\\AppData\\\\Local\\\\Temp\\\\verify-trigger\",\"pattern\":\"**/*.{ps1,psm1,cmd,bat}\"}"
+      },
+      {
+        "tool": "grep",
+        "input": "{\"path\":\"D:\\\\code_practice\\\\AI_coding\\\\DSH_cache\\\\skills\\\\verify-cheap\",\"pattern\":\"(?i)start-sleep|sleep|settimeout|poll|interval\"}"
+      },
+      {
+        "tool": "read",
+        "input": "{\"file_path\":\"D:\\\\code_practice\\\\AI_coding\\\\DSH_cache\\\\skills\\\\verify-cheap\\\\references\\\\anti-patterns.md\",\"limit\":40}"
+      }
+    ],
+    "skills": [
+      "verify-cheap"
+    ],
+    "nEvents": 46,
+    "attempts": 1,
+    "notes": []
+  },
+  {
+    "arm": "new",
+    "rep": 3,
+    "ok": true,
+    "calls": [
+      {
+        "tool": "skill",
+        "input": "{\"name\":\"verify-cheap\"}"
+      },
+      {
+        "tool": "glob",
+        "input": "{\"pattern\":\"**/*\"}"
+      },
+      {
+        "tool": "read",
+        "input": "{\"file_path\":\"SUMMARY.md\"}"
+      },
+      {
+        "tool": "grep",
+        "input": "{\"pattern\":\"Start-Sleep|sleep|Sleep\"}"
+      },
+      {
+        "tool": "glob",
+        "input": "{\"pattern\":\"*.ps1\"}"
+      },
+      {
+        "tool": "glob",
+        "input": "{\"pattern\":\"**/*.{ps1,cmd,bat,mjs,js,sh}\",\"path\":\"D:\\\\code_practice\\\\AI_coding\\\\DSH_cache\\\\skills\\\\verify-cheap\"}"
+      },
+      {
+        "tool": "read",
+        "input": "{\"file_path\":\"_demo-hang.mjs\"}"
+      },
+      {
+        "tool": "read",
+        "input": "{\"file_path\":\".verify-cost.md\"}"
+      },
+      {
+        "tool": "grep",
+        "input": "{\"pattern\":\"(?i)sleep|setTimeout|Start-Sleep|wait-until\"}"
+      },
+      {
+        "tool": "grep",
+        "input": "{\"pattern\":\"(?i)Start-Sleep\",\"path\":\"D:\\\\code_practice\\\\AI_coding\\\\DSH_cache\\\\skills\"}"
+      },
+      {
+        "tool": "grep",
+        "input": "{\"pattern\":\"(?i)while|poll|retry|Date\\\\.now\"}"
+      },
+      {
+        "tool": "pwsh",
+        "input": "{\"command\":\"node _demo-hang.mjs; \\\"exit=$LASTEXITCODE\\\"\",\"description\":\"Run the hang-demo fixture to confirm behavior\",\"workdir\":\"C:\\\\Users\\\\19723\\\\AppData\\\\Local\\\\Temp\\\\verify-trigger\"}"
+      }
+    ],
+    "skills": [
+      "verify-cheap"
+    ],
+    "nEvents": 50,
+    "attempts": 1,
+    "notes": []
+  },
+  {
+    "arm": "trim",
+    "rep": 0,
+    "ok": true,
+    "calls": [
+      {
+        "tool": "read",
+        "input": "{\"file_path\":\"C:\\\\Users\\\\19723\\\\AppData\\\\Local\\\\Temp\\\\verify-trigger\\\\SUMMARY.md\"}"
+      },
+      {
+        "tool": "glob",
+        "input": "{\"pattern\":\"**/*\"}"
+      },
+      {
+        "tool": "skill",
+        "input": "{\"name\":\"verify-cheap\"}"
+      },
+      {
+        "tool": "grep",
+        "input": "{\"pattern\":\"Start-Sleep|sleep|Sleep|delay|setTimeout\",\"path\":\"C:\\\\Users\\\\19723\\\\AppData\\\\Local\\\\Temp\\\\verify-trigger\"}"
+      },
+      {
+        "tool": "read",
+        "input": "{\"file_path\":\"C:\\\\Users\\\\19723\\\\AppData\\\\Local\\\\Temp\\\\verify-trigger\\\\_demo-hang.mjs\"}"
+      }
+    ],
+    "skills": [
+      "verify-cheap"
+    ],
+    "nEvents": 24,
+    "attempts": 1,
+    "notes": []
+  },
+  {
+    "arm": "trim",
+    "rep": 1,
+    "ok": true,
+    "calls": [
+      {
+        "tool": "pwsh",
+        "input": "{\"command\":\"Get-ChildItem -Recurse -File | Select-Object FullName, Length | Format-Table -AutoSize\",\"description\":\"List workspace files\"}"
+      },
+      {
+        "tool": "read",
+        "input": "{\"file_path\":\"C:\\\\Users\\\\19723\\\\AppData\\\\Local\\\\Temp\\\\verify-trigger\\\\SUMMARY.md\"}"
+      },
+      {
+        "tool": "grep",
+        "input": "{\"pattern\":\"Start-Sleep|Sleep|TIMEOUT|timeout\",\"path\":\"C:\\\\Users\\\\19723\\\\AppData\\\\Local\\\\Temp\\\\verify-trigger\"}"
+      },
+      {
+        "tool": "read",
+        "input": "{\"file_path\":\"C:\\\\Users\\\\19723\\\\AppData\\\\Local\\\\Temp\\\\verify-trigger\\\\_demo-hang.mjs\"}"
+      },
+      {
+        "tool": "pwsh",
+        "input": "{\"command\":\"Get-ChildItem -Recurse -Force | Select-Object Mode, Length, FullName | Format-Table -AutoSize\",\"description\":\"List all files including hidden\"}"
+      },
+      {
+        "tool": "grep",
+        "input": "{\"path\":\"D:\\\\code_practice\\\\AI_coding\\\\DSH_cache\",\"pattern\":\"Start-Sleep\"}"
+      },
+      {
+        "tool": "grep",
+        "input": "{\"path\":\"D:\\\\code_practice\\\\AI_coding\\\\DSH_cache\\\\skills\",\"pattern\":\"Start-Sleep\"}"
+      },
+      {
+        "tool": "grep",
+        "input": "{\"path\":\"D:\\\\code_practice\\\\AI_coding\\\\DSH_cache\\\\tools\",\"pattern\":\"Start-Sleep\"}"
+      },
+      {
+        "tool": "read",
+        "input": "{\"file_path\":\"D:\\\\code_practice\\\\AI_coding\\\\DSH_cache\\\\skills\\\\verify-cheap\\\\references\\\\anti-patterns.md\",\"limit\":60}"
+      },
+      {
+        "tool": "read",
+        "input": "{\"file_path\":\"C:\\\\Users\\\\19723\\\\AppData\\\\Local\\\\Temp\\\\verify-trigger\\\\.verify-cost.md\"}"
+      },
+      {
+        "tool": "skill",
+        "input": "{\"name\":\"verify-cheap\"}"
+      }
+    ],
+    "skills": [
+      "verify-cheap"
+    ],
+    "nEvents": 48,
+    "attempts": 1,
+    "notes": []
+  },
+  {
+    "arm": "trim",
+    "rep": 2,
+    "ok": true,
+    "calls": [
+      {
+        "tool": "glob",
+        "input": "{\"pattern\":\"**/*\"}"
+      },
+      {
+        "tool": "read",
+        "input": "{\"file_path\":\"C:\\\\Users\\\\19723\\\\AppData\\\\Local\\\\Temp\\\\verify-trigger\\\\SUMMARY.md\"}"
+      },
+      {
+        "tool": "grep",
+        "input": "{\"pattern\":\"Start-Sleep|Sleep|sleep|setTimeout\",\"path\":\"C:\\\\Users\\\\19723\\\\AppData\\\\Local\\\\Temp\\\\verify-trigger\"}"
+      },
+      {
+        "tool": "read",
+        "input": "{\"file_path\":\"C:\\\\Users\\\\19723\\\\AppData\\\\Local\\\\Temp\\\\verify-trigger\\\\_demo-hang.mjs\"}"
+      },
+      {
+        "tool": "grep",
+        "input": "{\"path\":\"C:\\\\Users\\\\19723\\\\AppData\\\\Local\\\\Temp\\\\verify-trigger\",\"pattern\":\"Start-Sleep|Wait-|等待|在等\"}"
+      },
+      {
+        "tool": "grep",
+        "input": "{\"path\":\"D:\\\\code_practice\\\\AI_coding\\\\DSH_cache\",\"pattern\":\"Start-Sleep\",\"include\":\"*.ps1\"}"
+      },
+      {
+        "tool": "grep",
+        "input": "{\"path\":\"D:\\\\code_practice\\\\AI_coding\\\\DSH_cache\\\\skills\",\"pattern\":\"Start-Sleep|sleep\\\\s*\\\\(|setTimeout\"}"
+      },
+      {
+        "tool": "grep",
+        "input": "{\"path\":\"D:\\\\code_practice\\\\AI_coding\\\\chats\\\\scripts\",\"pattern\":\"Start-Sleep\"}"
+      },
+      {
+        "tool": "read",
+        "input": "{\"file_path\":\"D:\\\\code_practice\\\\AI_coding\\\\chats\\\\scripts\\\\cleanup-accelerators.ps1\"}"
+      },
+      {
+        "tool": "read",
+        "input": "{\"file_path\":\"D:\\\\code_practice\\\\AI_coding\\\\DSH_cache\\\\skills\\\\verify-cheap\\\\references\\\\anti-patterns.md\",\"limit\":40}"
+      },
+      {
+        "tool": "skill",
+        "input": "{\"name\":\"verify-cheap\"}"
+      }
+    ],
+    "skills": [
+      "verify-cheap"
+    ],
+    "nEvents": 48,
+    "attempts": 1,
+    "notes": []
+  },
+  {
+    "arm": "trim",
+    "rep": 3,
+    "ok": true,
+    "calls": [
+      {
+        "tool": "glob",
+        "input": "{\"pattern\":\"**/*\"}"
+      },
+      {
+        "tool": "read",
+        "input": "{\"file_path\":\"C:\\\\Users\\\\19723\\\\AppData\\\\Local\\\\Temp\\\\verify-trigger\\\\SUMMARY.md\"}"
+      },
+      {
+        "tool": "skill",
+        "input": "{\"name\":\"verify-cheap\"}"
+      },
+      {
+        "tool": "grep",
+        "input": "{\"pattern\":\"Start-Sleep|Sleep\"}"
+      },
+      {
+        "tool": "glob",
+        "input": "{\"pattern\":\"**/*.ps1\"}"
+      },
+      {
+        "tool": "grep",
+        "input": "{\"pattern\":\"sleep|delay|setTimeout|等待\"}"
+      },
+      {
+        "tool": "read",
+        "input": "{\"file_path\":\"C:\\\\Users\\\\19723\\\\AppData\\\\Local\\\\Temp\\\\verify-trigger\\\\_demo-hang.mjs\"}"
+      },
+      {
+        "tool": "grep",
+        "input": "{\"pattern\":\"Start-Sleep\",\"path\":\"D:\\\\code_practice\\\\AI_coding\\\\DSH_cache\"}"
+      },
+      {
+        "tool": "read",
+        "input": "{\"file_path\":\"C:\\\\Users\\\\19723\\\\AppData\\\\Local\\\\Temp\\\\verify-trigger\\\\.verify-cost.md\"}"
+      },
+      {
+        "tool": "grep",
+        "input": "{\"path\":\"D:\\\\code_practice\\\\AI_coding\\\\DSH_cache\\\\skills\",\"pattern\":\"Start-Sleep\"}"
+      },
+      {
+        "tool": "grep",
+        "input": "{\"path\":\"D:\\\\code_practice\\\\AI_coding\\\\DSH_cache\\\\tools\",\"pattern\":\"Start-Sleep\"}"
+      }
+    ],
+    "skills": [
+      "verify-cheap"
+    ],
+    "nEvents": 45,
+    "attempts": 1,
+    "notes": []
+  }
+]

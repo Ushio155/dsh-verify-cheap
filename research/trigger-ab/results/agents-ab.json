@@ -1,0 +1,354 @@
+[
+  {
+    "arm": "base",
+    "rep": 0,
+    "id": "sleep",
+    "ok": true,
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "skill"
+  },
+  {
+    "arm": "base",
+    "rep": 0,
+    "id": "green",
+    "ok": true,
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "skill"
+  },
+  {
+    "arm": "base",
+    "rep": 0,
+    "id": "gap",
+    "ok": true,
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "skill"
+  },
+  {
+    "arm": "base",
+    "rep": 0,
+    "id": "full",
+    "ok": true,
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "skill"
+  },
+  {
+    "arm": "treat",
+    "rep": 0,
+    "id": "sleep",
+    "ok": true,
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "skill"
+  },
+  {
+    "arm": "treat",
+    "rep": 0,
+    "id": "green",
+    "ok": true,
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "skill"
+  },
+  {
+    "arm": "treat",
+    "rep": 0,
+    "id": "gap",
+    "ok": true,
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "skill"
+  },
+  {
+    "arm": "treat",
+    "rep": 0,
+    "id": "full",
+    "ok": true,
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "skill"
+  },
+  {
+    "arm": "base",
+    "rep": 1,
+    "id": "sleep",
+    "ok": true,
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "skill"
+  },
+  {
+    "arm": "base",
+    "rep": 1,
+    "id": "green",
+    "ok": true,
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "skill"
+  },
+  {
+    "arm": "base",
+    "rep": 1,
+    "id": "gap",
+    "ok": true,
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "pwsh"
+  },
+  {
+    "arm": "base",
+    "rep": 1,
+    "id": "full",
+    "ok": true,
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "skill"
+  },
+  {
+    "arm": "treat",
+    "rep": 1,
+    "id": "sleep",
+    "ok": true,
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "skill"
+  },
+  {
+    "arm": "treat",
+    "rep": 1,
+    "id": "green",
+    "ok": true,
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "skill"
+  },
+  {
+    "arm": "treat",
+    "rep": 1,
+    "id": "gap",
+    "ok": true,
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "read"
+  },
+  {
+    "arm": "treat",
+    "rep": 1,
+    "id": "full",
+    "ok": true,
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "skill"
+  },
+  {
+    "arm": "base",
+    "rep": 2,
+    "id": "sleep",
+    "ok": true,
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "skill"
+  },
+  {
+    "arm": "base",
+    "rep": 2,
+    "id": "green",
+    "ok": true,
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "skill"
+  },
+  {
+    "arm": "base",
+    "rep": 2,
+    "id": "gap",
+    "ok": true,
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "skill"
+  },
+  {
+    "arm": "base",
+    "rep": 2,
+    "id": "full",
+    "ok": true,
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "skill"
+  },
+  {
+    "arm": "treat",
+    "rep": 2,
+    "id": "sleep",
+    "ok": true,
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "skill"
+  },
+  {
+    "arm": "treat",
+    "rep": 2,
+    "id": "green",
+    "ok": true,
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "skill"
+  },
+  {
+    "arm": "treat",
+    "rep": 2,
+    "id": "gap",
+    "ok": true,
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "skill"
+  },
+  {
+    "arm": "treat",
+    "rep": 2,
+    "id": "full",
+    "ok": true,
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "skill"
+  },
+  {
+    "arm": "base",
+    "rep": 3,
+    "id": "sleep",
+    "ok": true,
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "pwsh"
+  },
+  {
+    "arm": "base",
+    "rep": 3,
+    "id": "green",
+    "ok": true,
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "skill"
+  },
+  {
+    "arm": "base",
+    "rep": 3,
+    "id": "gap",
+    "ok": true,
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "skill"
+  },
+  {
+    "arm": "base",
+    "rep": 3,
+    "id": "full",
+    "ok": true,
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "skill"
+  },
+  {
+    "arm": "treat",
+    "rep": 3,
+    "id": "sleep",
+    "ok": true,
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "skill"
+  },
+  {
+    "arm": "treat",
+    "rep": 3,
+    "id": "green",
+    "ok": true,
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "skill"
+  },
+  {
+    "arm": "treat",
+    "rep": 3,
+    "id": "gap",
+    "ok": true,
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "skill"
+  },
+  {
+    "arm": "treat",
+    "rep": 3,
+    "id": "full",
+    "ok": true,
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "skill"
+  },
+  {
+    "arm": "base",
+    "rep": 0,
+    "id": "ctl",
+    "ok": true,
+    "skills": [],
+    "first": "glob"
+  },
+  {
+    "arm": "treat",
+    "rep": 0,
+    "id": "ctl",
+    "ok": true,
+    "skills": [],
+    "first": "glob"
+  },
+  {
+    "arm": "base",
+    "rep": 1,
+    "id": "ctl",
+    "ok": true,
+    "skills": [],
+    "first": "pwsh"
+  },
+  {
+    "arm": "treat",
+    "rep": 1,
+    "id": "ctl",
+    "ok": true,
+    "skills": [],
+    "first": "glob"
+  }
+]

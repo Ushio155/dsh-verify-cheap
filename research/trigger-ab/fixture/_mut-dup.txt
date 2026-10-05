@@ -1,0 +1,3 @@
+retries=1
+retries=99
+timeout=30

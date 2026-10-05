@@ -1,0 +1,582 @@
+[
+  {
+    "arm": "new",
+    "rep": 0,
+    "group": "R",
+    "prompt": "我在这个目录里把 config.txt 的 retries 从 1 改成了 2，帮我确认这次改动。",
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "skill",
+    "nTools": 7
+  },
+  {
+    "arm": "new",
+    "rep": 0,
+    "group": "R",
+    "prompt": "这次我只是改了一行文本，要不要跑全套测试？",
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "skill",
+    "nTools": 10
+  },
+  {
+    "arm": "new",
+    "rep": 0,
+    "group": "T",
+    "prompt": "我这个测试跑一百遍都是绿的，我有点不放心。",
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "skill",
+    "nTools": 16
+  },
+  {
+    "arm": "new",
+    "rep": 0,
+    "group": "T",
+    "prompt": "脚本里有一段 Start-Sleep 在等，我觉得不太对，你看呢？",
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "glob",
+    "nTools": 11
+  },
+  {
+    "arm": "new",
+    "rep": 0,
+    "group": "T",
+    "prompt": "这个验证脚本自己报 3 秒，外面看却是 40 秒，为什么？",
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "skill",
+    "nTools": 16
+  },
+  {
+    "arm": "new",
+    "rep": 0,
+    "group": "D",
+    "prompt": "我要给这个仓库写一份给后续会话看的索引，该写些什么？",
+    "skills": [
+      "repo-summary"
+    ],
+    "first": "skill",
+    "nTools": 10
+  },
+  {
+    "arm": "new",
+    "rep": 0,
+    "group": "D",
+    "prompt": "这个仓库我第二次来了，之前踩的坑记在哪比较好？",
+    "skills": [
+      "repo-summary"
+    ],
+    "first": "skill",
+    "nTools": 57
+  },
+  {
+    "arm": "new",
+    "rep": 0,
+    "group": "D",
+    "prompt": "README 写多长合适，要不要再单独搞一份文档？",
+    "skills": [
+      "repo-summary"
+    ],
+    "first": "skill",
+    "nTools": 4
+  },
+  {
+    "arm": "new",
+    "rep": 0,
+    "group": "N",
+    "prompt": "列出这个目录里的文件。",
+    "skills": [],
+    "first": "pwsh",
+    "nTools": 1
+  },
+  {
+    "arm": "new",
+    "rep": 1,
+    "group": "R",
+    "prompt": "我在这个目录里把 config.txt 的 retries 从 1 改成了 2，帮我确认这次改动。",
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "skill",
+    "nTools": 11
+  },
+  {
+    "arm": "new",
+    "rep": 1,
+    "group": "R",
+    "prompt": "这次我只是改了一行文本，要不要跑全套测试？",
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "skill",
+    "nTools": 7
+  },
+  {
+    "arm": "new",
+    "rep": 1,
+    "group": "T",
+    "prompt": "我这个测试跑一百遍都是绿的，我有点不放心。",
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "read",
+    "nTools": 9
+  },
+  {
+    "arm": "new",
+    "rep": 1,
+    "group": "T",
+    "prompt": "脚本里有一段 Start-Sleep 在等，我觉得不太对，你看呢？",
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "skill",
+    "nTools": 12
+  },
+  {
+    "arm": "new",
+    "rep": 1,
+    "group": "T",
+    "prompt": "这个验证脚本自己报 3 秒，外面看却是 40 秒，为什么？",
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "read",
+    "nTools": 9
+  },
+  {
+    "arm": "new",
+    "rep": 1,
+    "group": "D",
+    "prompt": "我要给这个仓库写一份给后续会话看的索引，该写些什么？",
+    "skills": [
+      "repo-summary"
+    ],
+    "first": "skill",
+    "nTools": 16
+  },
+  {
+    "arm": "new",
+    "rep": 1,
+    "group": "D",
+    "prompt": "这个仓库我第二次来了，之前踩的坑记在哪比较好？",
+    "skills": [
+      "repo-summary"
+    ],
+    "first": "skill",
+    "nTools": 6
+  },
+  {
+    "arm": "new",
+    "rep": 1,
+    "group": "D",
+    "prompt": "README 写多长合适，要不要再单独搞一份文档？",
+    "skills": [
+      "repo-summary"
+    ],
+    "first": "skill",
+    "nTools": 4
+  },
+  {
+    "arm": "new",
+    "rep": 1,
+    "group": "N",
+    "prompt": "列出这个目录里的文件。",
+    "skills": [],
+    "first": "pwsh",
+    "nTools": 2
+  },
+  {
+    "arm": "trim",
+    "rep": 0,
+    "group": "R",
+    "prompt": "我在这个目录里把 config.txt 的 retries 从 1 改成了 2，帮我确认这次改动。",
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "skill",
+    "nTools": 9
+  },
+  {
+    "arm": "trim",
+    "rep": 0,
+    "group": "R",
+    "prompt": "这次我只是改了一行文本，要不要跑全套测试？",
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "skill",
+    "nTools": 8
+  },
+  {
+    "arm": "trim",
+    "rep": 0,
+    "group": "T",
+    "prompt": "我这个测试跑一百遍都是绿的，我有点不放心。",
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "skill",
+    "nTools": 10
+  },
+  {
+    "arm": "trim",
+    "rep": 0,
+    "group": "T",
+    "prompt": "脚本里有一段 Start-Sleep 在等，我觉得不太对，你看呢？",
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "read",
+    "nTools": 10
+  },
+  {
+    "arm": "trim",
+    "rep": 0,
+    "group": "T",
+    "prompt": "这个验证脚本自己报 3 秒，外面看却是 40 秒，为什么？",
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "skill",
+    "nTools": 7
+  },
+  {
+    "arm": "trim",
+    "rep": 0,
+    "group": "D",
+    "prompt": "我要给这个仓库写一份给后续会话看的索引，该写些什么？",
+    "skills": [
+      "repo-summary"
+    ],
+    "first": "skill",
+    "nTools": 11
+  },
+  {
+    "arm": "trim",
+    "rep": 0,
+    "group": "D",
+    "prompt": "这个仓库我第二次来了，之前踩的坑记在哪比较好？",
+    "skills": [
+      "repo-summary"
+    ],
+    "first": "skill",
+    "nTools": 4
+  },
+  {
+    "arm": "trim",
+    "rep": 0,
+    "group": "D",
+    "prompt": "README 写多长合适，要不要再单独搞一份文档？",
+    "skills": [
+      "repo-summary"
+    ],
+    "first": "skill",
+    "nTools": 6
+  },
+  {
+    "arm": "trim",
+    "rep": 0,
+    "group": "N",
+    "prompt": "列出这个目录里的文件。",
+    "skills": [],
+    "first": "glob",
+    "nTools": 3
+  },
+  {
+    "arm": "trim",
+    "rep": 1,
+    "group": "R",
+    "prompt": "我在这个目录里把 config.txt 的 retries 从 1 改成了 2，帮我确认这次改动。",
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "skill",
+    "nTools": 10
+  },
+  {
+    "arm": "trim",
+    "rep": 1,
+    "group": "R",
+    "prompt": "这次我只是改了一行文本，要不要跑全套测试？",
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "skill",
+    "nTools": 9
+  },
+  {
+    "arm": "trim",
+    "rep": 1,
+    "group": "T",
+    "prompt": "我这个测试跑一百遍都是绿的，我有点不放心。",
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "read",
+    "nTools": 13
+  },
+  {
+    "arm": "trim",
+    "rep": 1,
+    "group": "T",
+    "prompt": "脚本里有一段 Start-Sleep 在等，我觉得不太对，你看呢？",
+    "skills": [],
+    "first": "glob",
+    "nTools": 6
+  },
+  {
+    "arm": "trim",
+    "rep": 1,
+    "group": "T",
+    "prompt": "这个验证脚本自己报 3 秒，外面看却是 40 秒，为什么？",
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "skill",
+    "nTools": 18
+  },
+  {
+    "arm": "trim",
+    "rep": 1,
+    "group": "D",
+    "prompt": "我要给这个仓库写一份给后续会话看的索引，该写些什么？",
+    "skills": [
+      "repo-summary"
+    ],
+    "first": "skill",
+    "nTools": 8
+  },
+  {
+    "arm": "trim",
+    "rep": 1,
+    "group": "D",
+    "prompt": "这个仓库我第二次来了，之前踩的坑记在哪比较好？",
+    "skills": [
+      "repo-summary"
+    ],
+    "first": "skill",
+    "nTools": 9
+  },
+  {
+    "arm": "trim",
+    "rep": 1,
+    "group": "D",
+    "prompt": "README 写多长合适，要不要再单独搞一份文档？",
+    "skills": [
+      "repo-summary"
+    ],
+    "first": "skill",
+    "nTools": 4
+  },
+  {
+    "arm": "trim",
+    "rep": 1,
+    "group": "N",
+    "prompt": "列出这个目录里的文件。",
+    "skills": [],
+    "first": "glob",
+    "nTools": 2
+  },
+  {
+    "arm": "old",
+    "rep": 0,
+    "group": "R",
+    "prompt": "我在这个目录里把 config.txt 的 retries 从 1 改成了 2，帮我确认这次改动。",
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "skill",
+    "nTools": 10
+  },
+  {
+    "arm": "old",
+    "rep": 0,
+    "group": "R",
+    "prompt": "这次我只是改了一行文本，要不要跑全套测试？",
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "skill",
+    "nTools": 7
+  },
+  {
+    "arm": "old",
+    "rep": 0,
+    "group": "T",
+    "prompt": "我这个测试跑一百遍都是绿的，我有点不放心。",
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "read",
+    "nTools": 12
+  },
+  {
+    "arm": "old",
+    "rep": 0,
+    "group": "T",
+    "prompt": "脚本里有一段 Start-Sleep 在等，我觉得不太对，你看呢？",
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "read",
+    "nTools": 11
+  },
+  {
+    "arm": "old",
+    "rep": 0,
+    "group": "T",
+    "prompt": "这个验证脚本自己报 3 秒，外面看却是 40 秒，为什么？",
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "read",
+    "nTools": 9
+  },
+  {
+    "arm": "old",
+    "rep": 0,
+    "group": "D",
+    "prompt": "我要给这个仓库写一份给后续会话看的索引，该写些什么？",
+    "skills": [
+      "repo-summary"
+    ],
+    "first": "skill",
+    "nTools": 5
+  },
+  {
+    "arm": "old",
+    "rep": 0,
+    "group": "D",
+    "prompt": "这个仓库我第二次来了，之前踩的坑记在哪比较好？",
+    "skills": [
+      "repo-summary"
+    ],
+    "first": "skill",
+    "nTools": 5
+  },
+  {
+    "arm": "old",
+    "rep": 0,
+    "group": "D",
+    "prompt": "README 写多长合适，要不要再单独搞一份文档？",
+    "skills": [
+      "repo-summary"
+    ],
+    "first": "skill",
+    "nTools": 4
+  },
+  {
+    "arm": "old",
+    "rep": 0,
+    "group": "N",
+    "prompt": "列出这个目录里的文件。",
+    "skills": [],
+    "first": "glob",
+    "nTools": 3
+  },
+  {
+    "arm": "old",
+    "rep": 1,
+    "group": "R",
+    "prompt": "我在这个目录里把 config.txt 的 retries 从 1 改成了 2，帮我确认这次改动。",
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "skill",
+    "nTools": 10
+  },
+  {
+    "arm": "old",
+    "rep": 1,
+    "group": "R",
+    "prompt": "这次我只是改了一行文本，要不要跑全套测试？",
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "skill",
+    "nTools": 11
+  },
+  {
+    "arm": "old",
+    "rep": 1,
+    "group": "T",
+    "prompt": "我这个测试跑一百遍都是绿的，我有点不放心。",
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "skill",
+    "nTools": 6
+  },
+  {
+    "arm": "old",
+    "rep": 1,
+    "group": "T",
+    "prompt": "脚本里有一段 Start-Sleep 在等，我觉得不太对，你看呢？",
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "skill",
+    "nTools": 12
+  },
+  {
+    "arm": "old",
+    "rep": 1,
+    "group": "T",
+    "prompt": "这个验证脚本自己报 3 秒，外面看却是 40 秒，为什么？",
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "skill",
+    "nTools": 7
+  },
+  {
+    "arm": "old",
+    "rep": 1,
+    "group": "D",
+    "prompt": "我要给这个仓库写一份给后续会话看的索引，该写些什么？",
+    "skills": [
+      "repo-summary"
+    ],
+    "first": "skill",
+    "nTools": 18
+  },
+  {
+    "arm": "old",
+    "rep": 1,
+    "group": "D",
+    "prompt": "这个仓库我第二次来了，之前踩的坑记在哪比较好？",
+    "skills": [
+      "repo-summary"
+    ],
+    "first": "skill",
+    "nTools": 5
+  },
+  {
+    "arm": "old",
+    "rep": 1,
+    "group": "D",
+    "prompt": "README 写多长合适，要不要再单独搞一份文档？",
+    "skills": [
+      "repo-summary"
+    ],
+    "first": "skill",
+    "nTools": 4
+  },
+  {
+    "arm": "old",
+    "rep": 1,
+    "group": "N",
+    "prompt": "列出这个目录里的文件。",
+    "skills": [],
+    "first": "pwsh",
+    "nTools": 2
+  }
+]

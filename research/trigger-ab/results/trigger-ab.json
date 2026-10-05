@@ -1,0 +1,423 @@
+[
+  {
+    "arm": "new",
+    "rep": 0,
+    "prompt": "我在这个目录里把 config.txt 的 retries 从 1 改成了 2，帮我确认这次改动。",
+    "calls": [
+      "skill",
+      "pwsh",
+      "read",
+      "pwsh"
+    ],
+    "loaded": true,
+    "model": "?"
+  },
+  {
+    "arm": "new",
+    "rep": 0,
+    "prompt": "我刚把这个目录里的 config.txt 改了，怎么知道改对了？",
+    "calls": [
+      "skill",
+      "pwsh",
+      "read",
+      "pwsh"
+    ],
+    "loaded": true,
+    "model": "?"
+  },
+  {
+    "arm": "new",
+    "rep": 0,
+    "prompt": "我有个后台任务在跑，得等它完事，我该怎么做？",
+    "calls": [
+      "skill",
+      "job_list",
+      "glob",
+      "glob"
+    ],
+    "loaded": true,
+    "model": "?"
+  },
+  {
+    "arm": "new",
+    "rep": 0,
+    "prompt": "这次我只是改了一行文本，要不要跑全套测试？",
+    "calls": [
+      "skill",
+      "pwsh",
+      "read"
+    ],
+    "loaded": true,
+    "model": "?"
+  },
+  {
+    "arm": "new",
+    "rep": 0,
+    "prompt": "列出这个目录里的文件。",
+    "calls": [
+      "pwsh",
+      "glob",
+      "read"
+    ],
+    "loaded": false,
+    "model": "?"
+  },
+  {
+    "arm": "new",
+    "rep": 1,
+    "prompt": "我在这个目录里把 config.txt 的 retries 从 1 改成了 2，帮我确认这次改动。",
+    "calls": [
+      "skill",
+      "glob",
+      "read",
+      "pwsh",
+      "grep",
+      "pwsh"
+    ],
+    "loaded": true,
+    "model": "?"
+  },
+  {
+    "arm": "new",
+    "rep": 1,
+    "prompt": "我刚把这个目录里的 config.txt 改了，怎么知道改对了？",
+    "calls": [
+      "skill",
+      "pwsh",
+      "read",
+      "pwsh"
+    ],
+    "loaded": true,
+    "model": "?"
+  },
+  {
+    "arm": "new",
+    "rep": 1,
+    "prompt": "我有个后台任务在跑，得等它完事，我该怎么做？",
+    "calls": [
+      "skill",
+      "job_list"
+    ],
+    "loaded": true,
+    "model": "?"
+  },
+  {
+    "arm": "new",
+    "rep": 1,
+    "prompt": "这次我只是改了一行文本，要不要跑全套测试？",
+    "calls": [
+      "skill",
+      "pwsh",
+      "glob",
+      "read",
+      "read",
+      "pwsh",
+      "pwsh",
+      "write",
+      "pwsh",
+      "pwsh"
+    ],
+    "loaded": true,
+    "model": "?"
+  },
+  {
+    "arm": "new",
+    "rep": 1,
+    "prompt": "列出这个目录里的文件。",
+    "calls": [
+      "glob",
+      "pwsh"
+    ],
+    "loaded": false,
+    "model": "?"
+  },
+  {
+    "arm": "new",
+    "rep": 2,
+    "prompt": "我在这个目录里把 config.txt 的 retries 从 1 改成了 2，帮我确认这次改动。",
+    "calls": [
+      "skill",
+      "glob",
+      "read",
+      "read",
+      "pwsh",
+      "pwsh"
+    ],
+    "loaded": true,
+    "model": "?"
+  },
+  {
+    "arm": "new",
+    "rep": 2,
+    "prompt": "我刚把这个目录里的 config.txt 改了，怎么知道改对了？",
+    "calls": [
+      "skill",
+      "pwsh",
+      "read",
+      "read",
+      "pwsh",
+      "pwsh",
+      "write",
+      "pwsh",
+      "pwsh"
+    ],
+    "loaded": true,
+    "model": "?"
+  },
+  {
+    "arm": "new",
+    "rep": 2,
+    "prompt": "我有个后台任务在跑，得等它完事，我该怎么做？",
+    "calls": [
+      "skill",
+      "job_list",
+      "glob",
+      "pwsh",
+      "read"
+    ],
+    "loaded": true,
+    "model": "?"
+  },
+  {
+    "arm": "new",
+    "rep": 2,
+    "prompt": "这次我只是改了一行文本，要不要跑全套测试？",
+    "calls": [
+      "skill",
+      "pwsh",
+      "pwsh",
+      "read",
+      "read",
+      "grep",
+      "pwsh",
+      "pwsh",
+      "pwsh",
+      "pwsh"
+    ],
+    "loaded": true,
+    "model": "?"
+  },
+  {
+    "arm": "new",
+    "rep": 2,
+    "prompt": "列出这个目录里的文件。",
+    "calls": [
+      "pwsh"
+    ],
+    "loaded": false,
+    "model": "?"
+  },
+  {
+    "arm": "old",
+    "rep": 0,
+    "prompt": "我在这个目录里把 config.txt 的 retries 从 1 改成了 2，帮我确认这次改动。",
+    "calls": [
+      "skill",
+      "glob",
+      "read",
+      "read",
+      "pwsh",
+      "pwsh",
+      "pwsh",
+      "pwsh",
+      "write",
+      "pwsh",
+      "pwsh",
+      "pwsh"
+    ],
+    "loaded": true,
+    "model": "?"
+  },
+  {
+    "arm": "old",
+    "rep": 0,
+    "prompt": "我刚把这个目录里的 config.txt 改了，怎么知道改对了？",
+    "calls": [
+      "pwsh",
+      "skill",
+      "read",
+      "read",
+      "pwsh",
+      "pwsh",
+      "pwsh",
+      "pwsh"
+    ],
+    "loaded": true,
+    "model": "?"
+  },
+  {
+    "arm": "old",
+    "rep": 0,
+    "prompt": "我有个后台任务在跑，得等它完事，我该怎么做？",
+    "calls": [
+      "skill",
+      "job_list"
+    ],
+    "loaded": true,
+    "model": "?"
+  },
+  {
+    "arm": "old",
+    "rep": 0,
+    "prompt": "这次我只是改了一行文本，要不要跑全套测试？",
+    "calls": [
+      "skill",
+      "pwsh",
+      "read",
+      "read",
+      "pwsh",
+      "glob",
+      "pwsh"
+    ],
+    "loaded": true,
+    "model": "?"
+  },
+  {
+    "arm": "old",
+    "rep": 0,
+    "prompt": "列出这个目录里的文件。",
+    "calls": [
+      "pwsh"
+    ],
+    "loaded": false,
+    "model": "?"
+  },
+  {
+    "arm": "old",
+    "rep": 1,
+    "prompt": "我在这个目录里把 config.txt 的 retries 从 1 改成了 2，帮我确认这次改动。",
+    "calls": [
+      "skill",
+      "pwsh",
+      "read",
+      "read",
+      "pwsh",
+      "glob",
+      "pwsh"
+    ],
+    "loaded": true,
+    "model": "?"
+  },
+  {
+    "arm": "old",
+    "rep": 1,
+    "prompt": "我刚把这个目录里的 config.txt 改了，怎么知道改对了？",
+    "calls": [
+      "pwsh",
+      "skill",
+      "read",
+      "read",
+      "pwsh",
+      "pwsh"
+    ],
+    "loaded": true,
+    "model": "?"
+  },
+  {
+    "arm": "old",
+    "rep": 1,
+    "prompt": "我有个后台任务在跑，得等它完事，我该怎么做？",
+    "calls": [
+      "skill",
+      "job_list",
+      "glob",
+      "pwsh"
+    ],
+    "loaded": true,
+    "model": "?"
+  },
+  {
+    "arm": "old",
+    "rep": 1,
+    "prompt": "这次我只是改了一行文本，要不要跑全套测试？",
+    "calls": [
+      "skill",
+      "pwsh",
+      "glob",
+      "read",
+      "read",
+      "pwsh",
+      "pwsh"
+    ],
+    "loaded": true,
+    "model": "?"
+  },
+  {
+    "arm": "old",
+    "rep": 1,
+    "prompt": "列出这个目录里的文件。",
+    "calls": [
+      "pwsh"
+    ],
+    "loaded": false,
+    "model": "?"
+  },
+  {
+    "arm": "old",
+    "rep": 2,
+    "prompt": "我在这个目录里把 config.txt 的 retries 从 1 改成了 2，帮我确认这次改动。",
+    "calls": [
+      "skill",
+      "pwsh",
+      "read",
+      "read",
+      "pwsh",
+      "glob",
+      "pwsh"
+    ],
+    "loaded": true,
+    "model": "?"
+  },
+  {
+    "arm": "old",
+    "rep": 2,
+    "prompt": "我刚把这个目录里的 config.txt 改了，怎么知道改对了？",
+    "calls": [
+      "skill",
+      "glob",
+      "read",
+      "read",
+      "pwsh",
+      "pwsh",
+      "pwsh",
+      "pwsh"
+    ],
+    "loaded": true,
+    "model": "?"
+  },
+  {
+    "arm": "old",
+    "rep": 2,
+    "prompt": "我有个后台任务在跑，得等它完事，我该怎么做？",
+    "calls": [
+      "skill",
+      "job_list",
+      "glob",
+      "glob",
+      "read"
+    ],
+    "loaded": true,
+    "model": "?"
+  },
+  {
+    "arm": "old",
+    "rep": 2,
+    "prompt": "这次我只是改了一行文本，要不要跑全套测试？",
+    "calls": [
+      "skill"
+    ],
+    "loaded": true,
+    "model": "?"
+  },
+  {
+    "arm": "old",
+    "rep": 2,
+    "prompt": "列出这个目录里的文件。",
+    "calls": [
+      "glob",
+      "pwsh"
+    ],
+    "loaded": false,
+    "model": "?"
+  }
+]

@@ -1,0 +1,2 @@
+retry=1
+timeout=30

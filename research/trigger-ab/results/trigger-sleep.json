@@ -1,0 +1,160 @@
+[
+  {
+    "arm": "new",
+    "rep": 0,
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "skill"
+  },
+  {
+    "arm": "new",
+    "rep": 1,
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "read"
+  },
+  {
+    "arm": "new",
+    "rep": 2,
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "pwsh"
+  },
+  {
+    "arm": "new",
+    "rep": 3,
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "skill"
+  },
+  {
+    "arm": "new",
+    "rep": 4,
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "skill"
+  },
+  {
+    "arm": "new",
+    "rep": 5,
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "skill"
+  },
+  {
+    "arm": "new",
+    "rep": 6,
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "skill"
+  },
+  {
+    "arm": "new",
+    "rep": 7,
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "glob"
+  },
+  {
+    "arm": "new",
+    "rep": 8,
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "skill"
+  },
+  {
+    "arm": "new",
+    "rep": 9,
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "skill"
+  },
+  {
+    "arm": "trim",
+    "rep": 0,
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "glob"
+  },
+  {
+    "arm": "trim",
+    "rep": 1,
+    "skills": [],
+    "first": "read"
+  },
+  {
+    "arm": "trim",
+    "rep": 2,
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "read"
+  },
+  {
+    "arm": "trim",
+    "rep": 3,
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "read"
+  },
+  {
+    "arm": "trim",
+    "rep": 4,
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "read"
+  },
+  {
+    "arm": "trim",
+    "rep": 5,
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "glob"
+  },
+  {
+    "arm": "trim",
+    "rep": 6,
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "read"
+  },
+  {
+    "arm": "trim",
+    "rep": 7,
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "glob"
+  },
+  {
+    "arm": "trim",
+    "rep": 8,
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "read"
+  },
+  {
+    "arm": "trim",
+    "rep": 9,
+    "skills": [
+      "verify-cheap"
+    ],
+    "first": "glob"
+  }
+]
