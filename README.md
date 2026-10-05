@@ -36,7 +36,11 @@ skills/
     scripts/
       wait-until.mjs
       measure-runtime.mjs
+research/
+  trigger-ab/         # 「description 会不会真的触发技能」的 A/B 实验归档（脚本 + 原始结果 + 夹具）
 ```
+
+> `research/trigger-ab/` 是实验归档，**不属于插件内容**（`package.json` 的 `files` 不含它）：7 个 harness 在同一个夹具工作区里反复跑 `dsh --profile headless`，只看模型有没有调用 `skill(verify-cheap)`、以及**第一次工具调用**是不是它。结论是 `description` 里的具体动作词决定"第一步就加载"（skill-first 6/8 vs 1/8，Fisher 双侧 p=0.041），而再往 `AGENTS.md` 里补一句"验证类任务先加载技能"没有可测增量。矩阵、逐次运行的调用序列与那次实验的 175 个会话清单都在该目录里。
 
 `cordis.patch.yml` 用 `createRequire(baseUrl).resolve('<包名>/package.json')` 定位本包目录，再把 `skills/` 拼上去 —— 这与 DSH 自带 agent preset 装载自己技能用的是同一套写法。`providerName` 必须每包唯一——技能注册表拒绝同名 provider，所以默认值 `filesystem` 会和 harness 自带 provider 以及任何用同一机制的插件撞名；`includeDefaultRoots: false` 让这个 provider 只管自己的目录（project / user 根由 harness 自带 provider 负责，不用重复声明）。
 

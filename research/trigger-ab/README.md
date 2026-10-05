@@ -20,7 +20,7 @@ spawnSync(process.execPath, [BIN, "--profile", "headless", "--json", prompt], { 
 
 | 路径 | 内容 |
 |---|---|
-| `harness/` | 7 个实验驱动脚本 + `trigger-check.mjs`（结果判读辅助），Node 零依赖 |
+| `harness/` | 7 个实验驱动脚本 + `trigger-check.mjs`（结果判读辅助）+ `session-inventory.mjs`（把会话存档导出成 `session-inventory.tsv`），Node 零依赖 |
 | `results/` | 每个 harness 的原始结果 `*.json`（逐次运行的调用序列）与 `*.log`（控制台输出，UTF-16LE）；`trigger-new.ndjson` 是一次运行的完整事件流 |
 | `fixture/` | 实验场地（`config.txt` + `check-config.mjs` / `check-expected.mjs` / 负向对照 `_bad-*.txt` / 变异体 `_mut-*.txt` / `_sleep-*.ps1` 等）及其自带索引 `SUMMARY.md`、成本表 `.verify-cost.md` |
 | `session-inventory.tsv` | 这批实验在 `$DSH_HOME/sessions/` 里落下的 **175 个会话**清单（id、时间、标题、首条提示词、token、工具调用数、是否加载了技能） |
@@ -72,4 +72,8 @@ node .\harness\old-vs-new.mjs
 # 5. 收尾：删除本次实验在 $DSH_HOME\sessions\ 下新增的项目目录
 ```
 
-`session-inventory.tsv` 里每行就是一次运行，`firstPrompt` 相同的行属于同一格矩阵 —— 需要按提示词聚合用量或复核触发率时，直接拿它 group by 即可。
+`session-inventory.tsv` 里每行就是一次运行，`firstPrompt` 相同的行属于同一格矩阵 —— 需要按提示词聚合用量或复核触发率时，直接拿它 group by 即可。它是这样生成的（换一个会话目录也能用）：
+
+```powershell
+node .\harness\session-inventory.mjs "$env:DSH_HOME\sessions\<项目目录>" .\session-inventory.tsv
+```
